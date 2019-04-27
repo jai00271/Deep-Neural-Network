@@ -2,14 +2,27 @@
 
 1. What are Channels and Kernels (according to EVA)?
 
-Channels: 
-Kernels:
+Kernels: A unit. You can think of it as an atom(the smallest particle of a chemical element that can exist). 
+Channels: Collection of kernels. you can think of it as a molecule(Every combination of atoms is a molecule).
 
 In CNN dictionary, Kernel = filters = feature detector.
 
 2. Why should we only (well mostly) use 3x3 Kernels?
 
+We will split this question into 2 parts:
 
+a. How to choose between smaller and larger filter size?
+b. Why 3x3 and not any other filter like 5x5
+
+How to choose between smaller and larger filter size?
+
+* Smaller filter looks at very few pixels at a time hence it has small receptive field. Where as large filter will look at lot of pixel hence it will have large receptive field
+
+* When we work with smaller filters, we focus on every minute details and capture smaller complex features from Image, where as when we work with larger filters we tends to search for generic features which will give us basic components.
+
+* After capturing smaller/ minute features from Image we can make use of them later in the processing. We loose this benefit with large filters as they focus on generics not specific features.
+
+Why 3x3 and not any other filter like 5x5
 
 3. How many times do we need to perform 3x3 convolution operation to reach 1x1 from 199x199 (show calculations)
 
@@ -38,8 +51,7 @@ We need to perform 199-2 = 197 iterations. So let do it:
  
 
 
-Feeling after manually doing the above calcuation:
- 
+Me after manually doing the above calcuation:
 
 
  
