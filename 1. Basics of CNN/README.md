@@ -22,7 +22,7 @@ Above is a 3x3 convolution on a 5x5 matrix and the result is a 3x3 matrix(the re
 
 Remember,
 
-# ![alt text](https://s3.scoopwhoop.com/anj/morpheus/884813517.gif =500x350)
+![alt text](https://s3.scoopwhoop.com/anj/morpheus/884813517.gif =500x350)
 
 Now lets do some programming using above concepts.
 
