@@ -55,7 +55,7 @@ Why 3x3 and not any other filter like 5x5 or 7x7?
 
 3. How many times do we need to perform 3x3 convolution operation to reach 1x1 from 199x199 (show calculations)
 
-We need to perform 199-2 = 100 iterations. So let do it:
+We need to perform 100 iterations. So let do it:
 
 199, 197, 195, 193, 191, 
 189, 187, 185, 183, 181, 
