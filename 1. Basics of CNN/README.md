@@ -1,4 +1,32 @@
-# Here we will try answering some important questions like:
+**Background**
+
+DNN - When the great minds said all human should look within to find the answers of most difficult problems, we never took it seriously. Now interestingly most of AI is built around replicating GOD's most beautiful wonder that is us. Scientist and researchers are still in awe of how our minds work and it performs such complex operation with such smoothness. DNN which stands for Deep Neural Network is a similar approach in trying to replicate how our brain works. So this whole course will be about learning DNN.
+
+
+CNN - Convolution neural network is a branch of DNN through which we process images and try to learn the pattern so that we can make a better prediction in the future. 
+
+Convolution is a technique where we try to reduce the size of an image without losing key/important features of it. It's just like how when our mom asks us to clean our room, we remove the unnecessary stuff but keep only the relevant items like books, games cd, etc. We have reduced the items in our room but we never lost anything important.
+
+Let's use below 3x3 convolution and see with an example: 
+
+$ \begin{bmatrix}
+    1      & 0 & 1  \\
+    0      & 1 & 0  \\
+    1      & 0 & 1  
+\end{bmatrix} $
+
+
+![alt text](https://i.stack.imgur.com/9Iu89.gif)
+
+Above is a 3x3 convolution on a 5x5 matrix and the result is a 3x3 matrix(the result matrix is always 2 less than the original matrix, for example, if we have a 7x7 matrix and run a convolution matrix of 3x3 over it, we will have a 5x5 matrix).
+
+Remember,
+
+# ![alt text](https://s3.scoopwhoop.com/anj/morpheus/884813517.gif =500x350)
+
+Now lets do some programming using above concepts.
+
+# Now, we will try answering some important questions like:
 
 1. What are Channels and Kernels (according to EVA)?
 
