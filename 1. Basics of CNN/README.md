@@ -1,30 +1,22 @@
 **Background**
 
-DNN - When the great minds said all human should look within to find the answers of most difficult problems, we never took it seriously. Now interestingly most of AI is built around replicating GOD's most beautiful wonder that is us. Scientist and researchers are still in awe of how our minds work and it performs such complex operation with such smoothness. DNN which stands for Deep Neural Network is a similar approach in trying to replicate how our brain works. So this whole course will be about learning DNN.
+DNN - When the great minds said all humans should look within themselves to find the answers of most difficult problems, we never took it seriously. Now interestingly most of the AI is built around replicating GOD's most beautiful wonder which is us. Scientist and researchers are still in awe of how our minds work and it performs such complex operation with such ease. DNN which stands for Deep Neural Network is a similar approach in trying to replicate how our brain functions. So throughout the series(yes this is just the beginning), we will be learning about DNN that means whatever we will learn going forward is a branch of DNN.
 
+Today we will discuss Images and CNN. But before that let me ask you a question, have you ever thought how modern photo apps like Instagram provides those filters? What is the logic behind those filters? Let's find the answer.
 
-CNN - Convolution neural network is a branch of DNN through which we process images and try to learn the pattern so that we can make a better prediction in the future. 
+CNN - Convolution neural network is a branch of DNN through which we process images and try to learn the pattern so that we can make a better prediction in the future. FYI Though it is famous for Image progressing it can be used in other scenarios as well. Now lets again take the example of our brain, do you know how our brain process Images? It uses an edge detector to detect the edges and forms an image based on that. So when an Images comes to the brain it uses edge detector to find the edges and then those edges are converted to part of an object and then in the final step they are converted to object.
 
-Convolution is a technique where we try to reduce the size of an image without losing key/important features of it. It's just like how when our mom asks us to clean our room, we remove the unnecessary stuff but keep only the relevant items like books, games cd, etc. We have reduced the items in our room but we never lost anything important.
+![alt text](https://ujwlkarn.files.wordpress.com/2016/08/screen-shot-2016-08-10-at-12-58-30-pm.png)
 
-Let's use below 3x3 convolution and see with an example: 
+Let's take another example, have you ever try reading something when there is no electricity? CNN also works in the same way. You move your torch from left to right to read lines and same logic goes behind convolution as well.
 
-$ \begin{bmatrix}
-    1      & 0 & 1  \\
-    0      & 1 & 0  \\
-    1      & 0 & 1  
-\end{bmatrix} $
+![alt text](https://thumbs.gfycat.com/PresentGreedyHornshark-size_restricted.gif) 
 
+Convolution is a technique where we try to reduce the size of an image without losing key/important features of it. Well, it makes sense to do so because if we are detecting whether an Image is of CAT or DOG, what is the whole point of doing it in the original image which might be of MB's.
 
 ![alt text](https://i.stack.imgur.com/9Iu89.gif)
 
-Above is a 3x3 convolution on a 5x5 matrix and the result is a 3x3 matrix(the result matrix is always 2 less than the original matrix, for example, if we have a 7x7 matrix and run a convolution matrix of 3x3 over it, we will have a 5x5 matrix).
-
-Remember,
-
-![alt text](https://s3.scoopwhoop.com/anj/morpheus/884813517.gif =500x350)
-
-Now lets do some programming using above concepts.
+Above is a 3x3 convolution on a 5x5 matrix and the result is a 3x3 matrix(In case 3x3 convolution/ filter the result matrix is always 2 less than the original matrix, for example, if we have a 7x7 matrix and run a convolution matrix of 3x3 over it, we will have a 5x5 matrix).
 
 # Now, we will try answering some important questions like:
 
