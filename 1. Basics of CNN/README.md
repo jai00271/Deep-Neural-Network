@@ -43,9 +43,15 @@ How to choose between smaller and larger filter size?
 
 * After capturing smaller/ minute features from Image we can make use of them later in the processing. We loose this benefit with large filters as they focus on generics not specific features.
 
-Why 3x3 and not any other filter like 5x5?
+Why 3x3 and not any other filter like 5x5 or 7x7?
 
-* 
+* Less filter less computation, big filter more computation.
+
+* It learns large complex features easily, where as large filters learns simple features. 
+
+* Output Layers will be less when we use 3x3 filters as compared to 5x5 or bigger filters. 
+
+* Also since there will be more output layers when using 3x3 filters more memory will be required to store them as compared to 5x5 or bigger filters. 
 
 3. How many times do we need to perform 3x3 convolution operation to reach 1x1 from 199x199 (show calculations)
 
